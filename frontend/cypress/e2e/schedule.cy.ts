@@ -71,20 +71,20 @@ describe("데이터 갱신: Polling 및 수동 요청", () => {
     cy.wait("@getScheduleList");
   });
 
-  // it("polling 주기마다 새로운 데이터로 리스트가 갱신된다", () => {
-  //   // 신규 요청: 새로운 데이터
-  //   cy.intercept("GET", `${API_BASE}/path/scroll*`, {
-  //     fixture: "scheduleNewList.json",
-  //   }).as("getScheduleListPolling");
+  it("polling 주기마다 새로운 데이터로 리스트가 갱신된다", () => {
+    // 신규 요청: 새로운 데이터
+    cy.intercept("GET", `${API_BASE}/path/scroll*`, {
+      fixture: "scheduleNewList.json",
+    }).as("getScheduleListPolling");
 
-  //   cy.wait(61000); //polling 주기 대기
-  //   cy.wait("@getScheduleListPolling");
+    cy.wait(61000); //polling 주기 대기
+    cy.wait("@getScheduleListPolling");
 
-  //   cy.get("[data-testid='schedule-list-item']").should("exist");
-  //   cy.get("[data-testid='schedule-list-item']")
-  //     .first()
-  //     .should("contain.text", "경로 #22");
-  // });
+    cy.get("[data-testid='schedule-list-item']").should("exist");
+    cy.get("[data-testid='schedule-list-item']")
+      .first()
+      .should("contain.text", "경로 #22");
+  });
 
   it("수동 새로고침 버튼 클릭시 새로운 데이터로 리스트가 갱신된다", () => {
     // 신규 요청: 새로운 데이터
