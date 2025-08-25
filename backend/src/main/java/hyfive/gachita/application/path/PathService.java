@@ -12,6 +12,8 @@ import hyfive.gachita.application.path.respository.PathRepository;
 import hyfive.gachita.application.rental.AvailableRental;
 import hyfive.gachita.application.rental.AvailableRentalRepository;
 import hyfive.gachita.application.rental.RentalService;
+import hyfive.gachita.client.geocode.dto.LatLng;
+import hyfive.gachita.client.kakao.KakaoNaviService;
 import hyfive.gachita.dispatch.dto.FinalNewPathDto;
 import hyfive.gachita.dispatch.dto.FinalOldPathDto;
 import hyfive.gachita.dispatch.dto.NodeDto;
@@ -42,6 +44,7 @@ public class PathService {
     private final PathRepository pathRepository;
     private final RentalService rentalService;
     private final AvailableRentalRepository availableRentalRepository;
+    private final KakaoNaviService kakaoNaviService;
 
     @Transactional
     public Path createPathWithNodes(FinalNewPathDto finalPathDto, Book book) {
