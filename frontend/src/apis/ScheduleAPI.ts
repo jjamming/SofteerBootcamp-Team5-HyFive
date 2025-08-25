@@ -80,13 +80,12 @@ export const useGetNode = (activeId: number) => {
     retry: 1,
   });
 
-  const { polyline, marker, highlight, bound } = data?.data ?? {};
+  const { polyline, marker, highlight } = data?.data ?? {};
 
   return {
     polyline,
     marker,
     highlight,
-    bound,
     refetch,
   };
 };

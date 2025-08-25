@@ -77,7 +77,6 @@ export interface NodeData {
   polyline: PolylinePath[];
   marker: MarkerPath[];
   highlight: HighlightType[];
-  bound: BoundPath;
 }
 
 export interface NodeAPIReponse {
