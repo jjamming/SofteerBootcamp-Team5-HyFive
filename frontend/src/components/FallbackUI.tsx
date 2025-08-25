@@ -12,7 +12,7 @@ const FallbackUI = ({
   resetErrorBoundary: () => void;
 }) => {
   return (
-    <div css={FallbackUIContainer}>
+    <div data-testid="fallback-ui" css={FallbackUIContainer}>
       <NoRouteIcon />
       <div css={TextWrapper}>
         <p>문제가 발생했습니다. 다시 요청해주세요 :(</p>

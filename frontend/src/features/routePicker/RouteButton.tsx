@@ -27,7 +27,7 @@ const RouteButton = ({
         {selectedPassenger ? (
           <>
             <PassengerRouteItem passenger={selectedPassenger} />
-            <CloseIcon onClick={onReset} />
+            <CloseIcon data-testid="highlight-cancel-btn" onClick={onReset} />
           </>
         ) : (
           <>
