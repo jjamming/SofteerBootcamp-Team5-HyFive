@@ -1,4 +1,5 @@
 import type {
+  BoundPath,
   HighlightType,
   MarkerPath,
   PolylinePath,
@@ -76,6 +77,7 @@ export interface NodeData {
   polyline: PolylinePath[];
   marker: MarkerPath[];
   highlight: HighlightType[];
+  bound: BoundPath;
 }
 
 export interface NodeAPIReponse {

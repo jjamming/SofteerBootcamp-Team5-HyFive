@@ -9,6 +9,7 @@ import {
 } from "@/features/map/hooks";
 import getRouteMidPoint from "@/features/map/utils/getRouteMidPoint.util";
 import type {
+  BoundPath,
   HighlightType,
   MarkerPath,
   PolylinePath,
@@ -19,15 +20,26 @@ interface MapCoreProps {
   markerPath: MarkerPath[];
   polylinePath: PolylinePath[];
   highlightPath: HighlightType[];
+  boundPath: BoundPath;
 }
-const MapCore = ({ markerPath, polylinePath, highlightPath }: MapCoreProps) => {
+const MapCore = ({
+  markerPath,
+  polylinePath,
+  highlightPath,
+  boundPath,
+}: MapCoreProps) => {
   const mapRef = useRef<HTMLDivElement>(null);
   const [selectedPassenger, setSelectedPassenger] =
     useState<Partial<HighlightType> | null>(null);
 
   // 지도 초기 위치 계산
-  const markerPathLatLng = markerPath.flatMap((path) => path.point);
-  const defaultCenter = markerPathLatLng.length
+  const markerPathLatLng = boundPath
+    ? [
+        { lat: boundPath.minLat, lng: boundPath.minLng },
+        { lat: boundPath.maxLat, lng: boundPath.maxLng },
+      ]
+    : [];
+  const defaultCenter = boundPath
     ? getRouteMidPoint(markerPathLatLng)
     : { lat: 37.674088, lng: 127.070157 };
 
