@@ -70,6 +70,11 @@ const CenterPage = () => {
     [state.selectedWeek],
   );
 
+  // 차량 선택 시 달력 오늘 날짜로 초기화
+  useEffect(() => {
+    handleDateClick(new Date());
+  }, [selectedCarId]);
+
   // 이벤트 핸들러
   const { navigateToRegisterCar, navigateToEditCar } = useCarNavigation();
   const {
@@ -231,7 +236,6 @@ const CenterPage = () => {
 export default CenterPage;
 
 const PageContainer = css`
-  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

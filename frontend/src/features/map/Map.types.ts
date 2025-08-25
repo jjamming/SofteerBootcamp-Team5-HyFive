@@ -166,3 +166,10 @@ export interface HighlightType {
   hospitalTime: string;
   segmentList: number[];
 }
+
+export interface BoundPath {
+  minLng: number;
+  minLat: number;
+  maxLng: number;
+  maxLat: number;
+}
