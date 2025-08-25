@@ -31,7 +31,7 @@ const MapHeader = ({ scheduleType, selectedSchedule }: MapHeaderProps) => {
   };
 
   return (
-    <div css={MapHeaderContainer}>
+    <div data-testid="schedule-detail-title" css={MapHeaderContainer}>
       <p css={RouteIdText}>경로 #{selectedSchedule.routeId}</p>
       <div css={SectionWrapper}>
         <div css={LeftSectionWrapper}>
