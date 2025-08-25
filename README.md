@@ -41,31 +41,34 @@
 
 # 📌 주요 기능
 
-<img width="1728" height="957" alt="Image" src="https://github.com/user-attachments/assets/3605be64-e60b-4415-9927-e43540c08654" />
-<img width="1728" height="958" alt="Image" src="https://github.com/user-attachments/assets/75667069-6764-41a8-b2b8-ea631d387859" />
+<img alt="Image" src="https://github.com/user-attachments/assets/3605be64-e60b-4415-9927-e43540c08654"/>
+<img alt="Image" src="https://github.com/user-attachments/assets/75667069-6764-41a8-b2b8-ea631d387859"/>
 
 # 💡 하이파이브의 개별 핵심 경험
 
-이름 | 링크
-| 이름 | 문서 링크 |
-|------|-----------|
+<div align="center">
+
+| 이름        | 문서 링크                                                                                                                                                                                                   |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김민정 (FE) | **[프로젝트 핵심 경험 - 김민정](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EA%B9%80%EB%AF%BC%EC%A0%95-(FE)>)** |
 | 유재민 (FE) | **[프로젝트 핵심 경험 - 유재민](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%9C%A0%EC%9E%AC%EB%AF%BC-(FE)>)** |
 | 성유진 (BE) | **[프로젝트 핵심 경험 - 성유진](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%84%B1%EC%9C%A0%EC%A7%84-(BE)>)** |
 | 신지수 (BE) | **[프로젝트 핵심 경험 - 신지수](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%8B%A0%EC%A7%80%EC%88%98-(BE)>)** |
+
+</div>
 
 # ⚙️ 아키텍처
 
 ## CI/CD 파이프라인
 
 <div align="center">
-<img alt="Image" src="https://github.com/user-attachments/assets/2cc6b76e-bcac-49e9-9243-cf0f1e696522" style="max-width: 80%; height: auto;"/>
+<img alt="Image" src="https://github.com/user-attachments/assets/2cc6b76e-bcac-49e9-9243-cf0f1e696522"/>
 </div>
 
 ## ERD
 
 <div align="center">
-<img alt="Image" src="https://github.com/user-attachments/assets/2cfb1bbb-9e84-48ee-b41a-a0a21ac491c4" style="max-width: 80%; height: auto;"/>
+<img alt="Image" src="https://github.com/user-attachments/assets/2cfb1bbb-9e84-48ee-b41a-a0a21ac491c4"/>
 </div>
 
 ## 폴더 구조
@@ -106,10 +109,14 @@
 
 ## 팀원 소개
 
+<div align="center">
+
 |                                         [김민정](https://github.com/minjeongss)                                          |                                          [유재민](https://github.com/jjamming)                                           |                                          [신지수](https://github.com/didyou88)                                           |                                           [성유진](https://github.com/jin20fd)                                           |
 | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
 | <img alt="🐿️ 김민정" src="https://github.com/user-attachments/assets/a75e68d9-5d0b-4f02-8e4a-0017ff582ef1" width="120"/> | <img alt="🐤 유재민" src="https://github.com/user-attachments/assets/56d466bb-b998-4c84-936f-25260ad2130b" width="120"/> | <img alt="🐙 신지수" src="https://github.com/user-attachments/assets/3a020da6-03fa-4d07-a764-1386dffd464e" width="120"/> | <img alt="🦦 성유진" src="https://github.com/user-attachments/assets/f42bd4aa-6485-4487-a9c9-e9ef25c3040f" width="120"/> |
 |                                                        `Frontend`                                                        |                                                        `Frontend`                                                        |                                                        `Backend`                                                         |                                                        `Backend`                                                         |
+
+</div>
 
 ## 하이파이브의 협업 방법
 
