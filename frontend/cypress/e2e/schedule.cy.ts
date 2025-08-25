@@ -101,3 +101,37 @@ describe("데이터 갱신: Polling 및 수동 요청", () => {
       .should("contain.text", "경로 #22");
   });
 });
+
+// ... 기존 코드 생략 ...
+
+describe("로딩 및 에러 발생시 Fallback UI 제시", () => {
+  beforeEach(() => {
+    // intercept를 일부러 지연시키거나 에러로 응답
+  });
+
+  it("Suspense(로딩) 상태에서 로딩 스피너가 보인다", () => {
+    // 2초간 응답 지연
+    cy.intercept("GET", `${API_BASE}/path/scroll*`, (req) => {
+      req.on("response", (res) => {
+        // nothing
+      });
+      setTimeout(() => req.reply({ fixture: "scheduleList.json" }), 2000);
+    }).as("getScheduleListLoading");
+
+    cy.visit("/admin/book/schedule");
+    cy.get("[data-testid='loading-spinner']").should("exist");
+    cy.wait("@getScheduleListLoading");
+    cy.get("[data-testid='loading-spinner']").should("not.exist");
+  });
+
+  it("API 에러 발생 시 에러 UI가 보인다", () => {
+    cy.intercept("GET", `${API_BASE}/path/scroll*`, {
+      statusCode: 500,
+      body: {},
+    }).as("getScheduleListError");
+
+    cy.visit("/admin/book/schedule");
+    cy.wait("@getScheduleListError");
+    cy.get("[data-testid='fallback-ui']").should("exist");
+  });
+});
