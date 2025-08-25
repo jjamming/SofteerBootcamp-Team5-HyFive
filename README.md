@@ -1,4 +1,4 @@
-# 📋 프로젝트 개요
+<img alt="프로젝트 개요" src="https://github.com/user-attachments/assets/63fa872d-1398-4700-b7fc-b390a6fbd101" />
 
 <img alt="소개이미지1" src="https://github.com/user-attachments/assets/aced3d90-5c8a-4f3f-b0fc-08732ba3d998" />
 <br/><br/>
@@ -26,7 +26,14 @@
 <a href="#-팀-소개">👨‍👩‍👧‍ 팀 소개</a> <br>
 </p>
 
-# 🎨 서비스 소개
+<br/>
+<br/>
+<br/>
+<img alt="서비스 소개" src="https://github.com/user-attachments/assets/176fec9e-0196-4ae1-ac00-3254a2973cdf" />
+<br/>
+<br/>
+<br/>
+<br/>
 
 <div align="center">
     <h4>
@@ -39,12 +46,20 @@
     <br>
 </div>
 
-# 📌 주요 기능
-
+<br/>
+<br/>
+<br/>
+<img alt="주요 기능" src="https://github.com/user-attachments/assets/894fa013-010d-450b-a7c0-8408646980c8" />
+<br/>
 <img alt="Image" src="https://github.com/user-attachments/assets/3605be64-e60b-4415-9927-e43540c08654"/>
 <img alt="Image" src="https://github.com/user-attachments/assets/75667069-6764-41a8-b2b8-ea631d387859"/>
 
-# 💡 하이파이브의 개별 핵심 경험
+<br/>
+<br/>
+<br/>
+<br/>
+<img alt="개별 핵심 경험" src="https://github.com/user-attachments/assets/3ebff144-9256-472a-9013-3b45e297ee8e" />
+<br/>
 
 <div align="center">
 
@@ -57,7 +72,10 @@
 
 </div>
 
-# ⚙️ 아키텍처
+<br/>
+<br/>
+<br/>
+<img alt="아키텍처" src="https://github.com/user-attachments/assets/e84f5e03-b313-4fcb-8e9d-f17a70588dc0" />
 
 ## CI/CD 파이프라인
 
@@ -75,7 +93,10 @@
 
 - [폴더 구조](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%8F%B4%EB%8D%94-%EA%B5%AC%EC%A1%B0)
 
-# 🛠 기술 스택
+<br/>
+<br/>
+<br/>
+<img alt="기술스택" src="https://github.com/user-attachments/assets/40fee68a-401b-4c9c-9ef4-c0ffd9ce63ae" />
 
 ### Frontend
 
@@ -105,7 +126,10 @@
 ![AWS CloudFront](https://github.com/user-attachments/assets/a9c4e963-a054-45a4-939e-d5dae33f393d)
 ![GitHub Actions](https://github.com/user-attachments/assets/98ef3abf-347d-4a73-ba21-767762d572f6)
 
-# 👨‍👩‍👧‍ 팀 소개
+<br/>
+<br/>
+<br/>
+<img alt="팀소개" src="https://github.com/user-attachments/assets/f1a3a879-23f4-467c-a53f-59a299482a7d" />
 
 ## 팀원 소개
 
