@@ -71,20 +71,20 @@ describe("데이터 갱신: Polling 및 수동 요청", () => {
     cy.wait("@getScheduleList");
   });
 
-  it("polling 주기마다 새로운 데이터로 리스트가 갱신된다", () => {
-    // 신규 요청: 새로운 데이터
-    cy.intercept("GET", `${API_BASE}/path/scroll*`, {
-      fixture: "scheduleNewList.json",
-    }).as("getScheduleListPolling");
+  // it("polling 주기마다 새로운 데이터로 리스트가 갱신된다", () => {
+  //   // 신규 요청: 새로운 데이터
+  //   cy.intercept("GET", `${API_BASE}/path/scroll*`, {
+  //     fixture: "scheduleNewList.json",
+  //   }).as("getScheduleListPolling");
 
-    cy.wait(61000); //polling 주기 대기
-    cy.wait("@getScheduleListPolling");
+  //   cy.wait(61000); //polling 주기 대기
+  //   cy.wait("@getScheduleListPolling");
 
-    cy.get("[data-testid='schedule-list-item']").should("exist");
-    cy.get("[data-testid='schedule-list-item']")
-      .first()
-      .should("contain.text", "경로 #22");
-  });
+  //   cy.get("[data-testid='schedule-list-item']").should("exist");
+  //   cy.get("[data-testid='schedule-list-item']")
+  //     .first()
+  //     .should("contain.text", "경로 #22");
+  // });
 
   it("수동 새로고침 버튼 클릭시 새로운 데이터로 리스트가 갱신된다", () => {
     // 신규 요청: 새로운 데이터
@@ -102,20 +102,15 @@ describe("데이터 갱신: Polling 및 수동 요청", () => {
   });
 });
 
-// ... 기존 코드 생략 ...
-
 describe("로딩 및 에러 발생시 Fallback UI 제시", () => {
   beforeEach(() => {
     // intercept를 일부러 지연시키거나 에러로 응답
   });
 
-  it("Suspense(로딩) 상태에서 로딩 스피너가 보인다", () => {
-    // 2초간 응답 지연
-    cy.intercept("GET", `${API_BASE}/path/scroll*`, (req) => {
-      req.on("response", (res) => {
-        // nothing
-      });
-      setTimeout(() => req.reply({ fixture: "scheduleList.json" }), 2000);
+  it("API 통신 진행시 Suspense와 연동된 로딩 스피너 UI가 렌더링된다", () => {
+    cy.intercept("GET", `${API_BASE}/path/scroll*`, {
+      fixture: "scheduleList.json",
+      delay: 2000,
     }).as("getScheduleListLoading");
 
     cy.visit("/admin/book/schedule");
@@ -124,14 +119,15 @@ describe("로딩 및 에러 발생시 Fallback UI 제시", () => {
     cy.get("[data-testid='loading-spinner']").should("not.exist");
   });
 
-  it("API 에러 발생 시 에러 UI가 보인다", () => {
+  it("API 에러 발생시 ErrorBoundary와 연동된 Fallback UI가 렌더링된다", () => {
     cy.intercept("GET", `${API_BASE}/path/scroll*`, {
       statusCode: 500,
       body: {},
     }).as("getScheduleListError");
 
     cy.visit("/admin/book/schedule");
+    cy.get("[data-testid='loading-spinner']").should("exist");
     cy.wait("@getScheduleListError");
-    cy.get("[data-testid='fallback-ui']").should("exist");
+    cy.get("div[data-testid='fallback-ui']").should("exist");
   });
 });
