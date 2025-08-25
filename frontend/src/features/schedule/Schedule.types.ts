@@ -1,4 +1,5 @@
 import type {
+  BoundPath,
   HighlightType,
   MarkerPath,
   PolylinePath,
