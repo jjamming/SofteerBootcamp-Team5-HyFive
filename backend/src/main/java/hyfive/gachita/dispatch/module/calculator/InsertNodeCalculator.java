@@ -10,6 +10,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
+import java.time.Duration;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -55,22 +56,39 @@ public class InsertNodeCalculator {
      * 모든 노드의 예상 도착 시간을 새로 계산합니다.
      */
     private List<NodeDto> updateNodeTime(List<NodeDto> nodeList, List<Integer> durationList) {
-        LocalTime baseTime = nodeList.get(0).time();
-        log.trace("[updateNodeTime] 노드 시간 업데이트 시작. 기준 시간: {}, 구간별 소요시간 수: {}", baseTime, durationList.size());
+        log.trace("[updateNodeTime] 노드 시간 업데이트 시작. 후보 노드 수: {}", nodeList.size());
 
         List<NodeDto> updatedList = new ArrayList<>();
-        updatedList.add(nodeList.get(0)); // 첫 번째 노드는 기준이므로 그대로 추가
-
-        long cumulativeSeconds = 0;
+        updatedList.add(nodeList.get(0)); // 첫 번째 노드는 그대로
+        LocalTime previousTime = nodeList.get(0).time(); // 초기 기준
 
         for (int i = 1; i < nodeList.size(); i++) {
-            // 이전 노드와의 이동 시간을 누적
-            cumulativeSeconds += durationList.get(i - 1);
-            LocalTime newTime = baseTime.plusSeconds(cumulativeSeconds);
+            NodeDto currentNode = nodeList.get(i);
+            NodeDto previousNode = updatedList.get(i - 1);
 
-            NodeDto updatedNode = NodeDto.updateTime(nodeList.get(i), newTime);
+            // Kakao API duration (i-1) -> (i) 로 이동하는데 걸리는 시간
+            int travelSec = durationList.get(i - 1);
+
+            // 이전 노드 slack 계산 (END 노드만)
+            long slackSec = 0;
+            if (previousNode.type() == NodeType.END) {
+                LocalTime latest = previousNode.deadline().getSecond();
+                slackSec = Math.max(0, Duration.between(previousTime.plusSeconds(travelSec), latest).getSeconds());
+            }
+
+            // 다음 노드가 END 노드라면 earliest/latest 범위 계산
+            LocalTime earliest = (currentNode.deadline() != null) ? currentNode.deadline().getFirst() : null;
+
+            // 예상 도착 시간 = 이전 시간 + duration + slack(범위 내)
+            LocalTime newTime = previousTime.plusSeconds(travelSec + slackSec);
+
+            // 다음 노드가 END 노드라면 deadline 조정
+            if (earliest != null && newTime.isBefore(earliest)) newTime = earliest;
+
+            NodeDto updatedNode = NodeDto.updateTime(currentNode, newTime);
             updatedList.add(updatedNode);
-            log.trace("  -> 노드 {} 시간 업데이트: {}", i, newTime);
+            previousTime = newTime;
+            log.trace(" -> 노드 {} 시간 업데이트: {}", i, newTime);
         }
 
         return updatedList;
@@ -87,6 +105,22 @@ public class InsertNodeCalculator {
         if (routeInfo.totalDuration() > MAX_TOTAL_DURATION) {
             log.debug("  -> 유효성 검증 실패: 총 소요시간 초과 (결과: {}초 > 최대: {}초)", routeInfo.totalDuration(), MAX_TOTAL_DURATION);
             return false;
+        }
+
+        // 2. available time 범위에 속하는지 확인
+        LocalTime startTime = nodeList.get(0).time();
+        LocalTime endTime   = nodeList.get(nodeList.size() - 1).time();
+        LocalTime availableStartTime = nodeList.get(0).availableRentalStartTime();
+        LocalTime availableEndTime   = nodeList.get(0).availableRentalEndTime();
+
+        boolean withinAvailableTime =
+                (startTime.equals(availableStartTime) || startTime.isAfter(availableStartTime)) &&
+                        (endTime.equals(availableEndTime) || endTime.isBefore(availableEndTime));
+
+        if (!withinAvailableTime) {
+            log.debug("  -> 유효성 검증 실패: 차량 대여 가능 시간 위반 (운행 시간: {} ~ {}, 허용 범위: {} ~ {})",
+                    startTime, endTime, availableStartTime, availableEndTime);
+            return false; // 또는 예외 throw
         }
 
         // 2. 각 노드별 마감 시간 검증

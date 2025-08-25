@@ -23,7 +23,11 @@ public record FragmentDto(
     }
 
     public static Optional<FragmentDto> ofSecond(FinalNewPathDto path) {
-        return of(path.nodeList().get(0).time().plusSeconds(2 * HOUR_IN_SECONDS), path.rentalEndTime());
+        LocalTime maybeEndTime = path.nodeList().get(0).time().plusHours(2);
+        LocalTime maxRentalEnd = path.availableRental().getEndTime();
+
+        LocalTime startTime = maybeEndTime.isBefore(maxRentalEnd) ? maybeEndTime : maxRentalEnd;
+        return of(startTime, path.rentalEndTime());
     }
 
     public int fragmentCount() {
