@@ -37,7 +37,6 @@ export const validateTime = (value: string): string | null => {
   const m = parseInt(minute);
 
   if (isNaN(h) || isNaN(m)) return "올바른 시간을 입력해주세요";
-  if (h < 1 || h > 12) return "시간은 1-12 사이로 입력해주세요";
   if (m < 0 || m > 59) return "분은 0-59 사이로 입력해주세요";
 
   if (meridiem === "AM") {
@@ -46,7 +45,8 @@ export const validateTime = (value: string): string | null => {
     h = h === 12 ? 12 : h + 12;
   }
 
-  if (h < 9 || h > 20) return "예약 가능 시간은 9시부터 20시까지입니다";
+  if (h < 9 || h > 20)
+    return "예약 가능 시간은 오전 9시부터 오후 8시까지입니다";
   return null;
 };
 
@@ -60,7 +60,6 @@ export const validateHour = (hour: string): string | null => {
 };
 
 export const validateMinute = (minute: string): string | null => {
-  if (!minute && minute !== "0") return "분을 입력해주세요";
   const m = parseInt(minute);
   if (isNaN(m)) return "숫자를 입력해주세요";
   if (m < 0 || m > 59) return "분은 0-59 사이로 입력해주세요";
