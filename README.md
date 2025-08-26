@@ -1,5 +1,3 @@
-<img alt="프로젝트개요" src="https://github.com/user-attachments/assets/f1c5a223-1344-49e4-a63c-d70306047107" />
-
 <img alt="소개이미지1" src="https://github.com/user-attachments/assets/aced3d90-5c8a-4f3f-b0fc-08732ba3d998" />
 <br/><br/>
 <div align="center">
@@ -17,19 +15,8 @@
   </a>
 </div>
 <br/>
-<p align="center">
-<a href="#-서비스-소개">🎨 서비스 소개</a> <br>
-<a href="#-주요-기능">📌 주요 기능</a> <br>
-<a href="#-아키텍처">⚙️ 아키텍처</a> <br>
-<a href="#-기술-스택">🛠 기술 스택</a> <br>
-<a href="#-프로젝트-타임라인">📅 프로젝트 타임라인</a> <br>
-<a href="#-팀-소개">👨‍👩‍👧‍ 팀 소개</a> <br>
-</p>
 
 <br/><br/><br/>
-<a href="#-서비스-소개">
-<img style="width: 100%" src="https://github.com/user-attachments/assets/248cdbbc-823d-46f7-b525-9d69928892e0" alt="서비스 소개" width="200"/>
-</a>
 <img alt="서비스소개" src="https://github.com/user-attachments/assets/248cdbbc-823d-46f7-b525-9d69928892e0" />
 <br/><br/><br/><br/>
 
