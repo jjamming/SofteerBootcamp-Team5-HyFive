@@ -189,4 +189,4 @@
 
 Git 브랜치 전략과 커밋 메시지 컨벤션도 모두의 이해를 돕기 위해 명확하게 정의되어 있습니다. 모든 작업은 이슈 기반으로 관리되며, 브랜치 이름과 커밋 메시지는 통일된 규칙에 따라 작성합니다. 이를 통해 누구나 기록만 보고도 흐름을 파악할 수 있도록 합니다.
 
-→ [Git 컨벤션 살펴보기🏷️](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%EA%B9%83%ED%97%88%EB%B8%8C-%EC%BB%A8%EB%B2%A4%EC%85%98)
+→ [Git 컨벤션 살펴보기🏷️](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%EA%B7%9C%EC%B9%99#%EF%B8%8F-%EA%B9%83%ED%97%88%EB%B8%8C-%EC%BB%A8%EB%B2%A4%EC%85%98)
