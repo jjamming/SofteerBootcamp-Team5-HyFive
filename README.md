@@ -1,5 +1,3 @@
-<img alt="프로젝트 개요" src="https://github.com/user-attachments/assets/63fa872d-1398-4700-b7fc-b390a6fbd101" />
-
 <img alt="소개이미지1" src="https://github.com/user-attachments/assets/aced3d90-5c8a-4f3f-b0fc-08732ba3d998" />
 <br/><br/>
 <div align="center">
@@ -17,17 +15,9 @@
   </a>
 </div>
 <br/>
-<p align="center">
-<a href="#-서비스-소개">🎨 서비스 소개</a> <br>
-<a href="#-주요-기능">📌 주요 기능</a> <br>
-<a href="#-아키텍처">⚙️ 아키텍처</a> <br>
-<a href="#-기술-스택">🛠 기술 스택</a> <br>
-<a href="#-프로젝트-타임라인">📅 프로젝트 타임라인</a> <br>
-<a href="#-팀-소개">👨‍👩‍👧‍ 팀 소개</a> <br>
-</p>
 
 <br/><br/><br/>
-<img alt="서비스 소개" src="https://github.com/user-attachments/assets/176fec9e-0196-4ae1-ac00-3254a2973cdf" />
+<img alt="서비스소개" src="https://github.com/user-attachments/assets/248cdbbc-823d-46f7-b525-9d69928892e0" />
 <br/><br/><br/><br/>
 
 <div align="center">
@@ -42,30 +32,76 @@
 </div>
 
 <br/><br/><br/>
-<img alt="주요 기능" src="https://github.com/user-attachments/assets/894fa013-010d-450b-a7c0-8408646980c8" />
+<img alt="주요기능" src="https://github.com/user-attachments/assets/256bdc69-553f-464f-a039-b90abc8c65a8" />
 <br/>
-<img alt="Image" src="https://github.com/user-attachments/assets/3605be64-e60b-4415-9927-e43540c08654"/>
-<img alt="Image" src="https://github.com/user-attachments/assets/75667069-6764-41a8-b2b8-ea631d387859"/>
+## 관리자용 페이지
 
-<br/><br/><br/>
-<img alt="개별 핵심 경험" src="https://github.com/user-attachments/assets/3ebff144-9256-472a-9013-3b45e297ee8e" />
-<br/><br/><br/><br/>
+### 1. 신규 예약 접수
+고객에게 예약 문의 전화가 오면, 관리자가 예약 정보를 받아 시스템에 등록하는 기능입니다.  
+예약이 등록되면 배차 알고리즘이 실행되어 특정 경로에 배차됩니다.
+
+### 2. 실시간 예약 현황
+금일 접수된 예약 내역을 실시간으로 확인할 수 있는 페이지입니다.
+
+- 상태: 신규 예약, 예약 성공, 예약 실패
+- 각 예약의 상세 정보 확인 가능
+
+### 3. 실시간 운행 현황
+금일 운행되는 경로와 탑승 정보를 확인할 수 있는 페이지입니다.
+
+- 지도에서 운행 경로 시각화
+- 각 경유지에서 탑승 및 하차하는 고객 정보 표시
+
+<img alt="Image" src="https://github.com/user-attachments/assets/3605be64-e60b-4415-9927-e43540c08654"/>
+
+## 센터용 페이지
+
+### 1. 차량 관리
+센터가 보유한 차량 정보를 등록하고 수정할 수 있는 기능입니다.
+
+### 2. 차량 시간표 관리
+센터가 보유한 차량의 유휴 시간을 등록할 수 있는 기능입니다.
+등록된 유휴 시간 동안 차량을 가치타 서비스에 제공합니다.
+
+<img alt="센터사진" src="https://github.com/user-attachments/assets/0f4daab8-1c9e-4756-9d1f-661f394d5b6c" />
+
+<br/><br/>
+<img alt="주요기능구현과정" src="https://github.com/user-attachments/assets/2aa2641c-2f98-433f-81ff-f3f620fbae48" />
+<br/>
+
+### Frontend
 
 <div align="center">
 
-| 이름        | 문서 링크                                                                                                                                                                                                   |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 김민정 (FE) | **[프로젝트 핵심 경험 - 김민정](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EA%B9%80%EB%AF%BC%EC%A0%95-(FE)>)** |
-| 유재민 (FE) | **[프로젝트 핵심 경험 - 유재민](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%9C%A0%EC%9E%AC%EB%AF%BC-(FE)>)** |
-| 성유진 (BE) | **[프로젝트 핵심 경험 - 성유진](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%84%B1%EC%9C%A0%EC%A7%84-(BE)>)** |
-| 신지수 (BE) | **[프로젝트 핵심 경험 - 신지수](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%8B%A0%EC%A7%80%EC%88%98-(BE)>)** |
+| 주제 | 문서 링크                                                                                                                                                                     |
+|------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 🧪 **프론트엔드에서도 단위테스트가 필요할까?** | **[Vitest를 이용한 컴포넌트 테스트 진행](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/Vitest를-이용한-컴포넌트-테스트-진행)**                                                           |
+| 🕐 **내 손가락이 시간표를 지배할 수 있을까?** | **[클릭과 드래그앤드롭으로 빈 시간 등록하기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/클릭과-드래그앤드롭으로-빈-시간-등록하기)**                                                             |
+| 📍 **엔터 한 방에 세상 모든 장소를 불러왔다** | **[사용자 입력 기반 장소 검색 및 자동완성 기능 개발](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/사용자-입력-기반-장소-검색-및-자동완성-기능-개발)**                                                 |
+| 🗺️ **지도를 불러왔더니 에러도 같이 왔다** | **[지도 렌더링을 현명하게 하는 방법](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/지도-렌더링을-현명하게-하는-방법)**                                                                     |
+| 🔥  **가치타의 Polling은 뒤로 갈수록 강해진다** | **[Adaptive와 Exponential Backoff Polling을 통한 실시간 통신 구축기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/Adaptive와-Exponential-Backoff-Polling을-통한-실시간-통신-구축기)** |
+| ⚡ **CI/CD가 내 손가락보다 빠른 이유.txt** | **[pnpm 캐싱과 CloudFront 캐시 무효화를 도입한 CI-CD 파이프라인](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/pnpm-캐싱과-CloudFront-캐시-무효화를-도입한-CI-CD-파이프라인)**                   |
 
 </div>
 
+### Backend
+
+<div align="center">
+
+| 주제 | 문서 링크                                                                                                                                         |
+|------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| 🤔 **저 어디에 타면 될까요..?** | **[배차 알고리즘의 모든 것](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/배차-알고리즘의-모든-것)**                                                                                                            |
+| 🚐 **'가치타'가 아닌 '혼자타'가 될 뻔한 이유!?** | **[한 경로에 다수 인원을 배차하도록 slack 도입하기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/한-경로에-다수-인원을-배차하도록-slack-도입하기)**                   |
+| 🥺 **배차가 안 잡히니? 반경을 바꿔보자.** | **[동적 반경 조정으로 제한된 API 쿼터 내에서 성공적인 배차 달성하기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/동적-반경-조정으로-제한된-API-쿼터-내에서-성공적인-배차-달성하기)** |
+| **🚗 "11시간 중 2시간만 일한다고?"** | **[차량 유휴시간 분할 관리를 통한 배차 알고리즘 개선하기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/차량-유휴시간-분할-관리를-통한-배차-알고리즘-개선하기)**                 |
+| 😨 **"정책 바뀌면 야근?" → 😎 "5분이면 되는데요?"** | **[스트림과 DTO를 활용한 모듈형 배차 알고리즘 설계하기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/스트림과-DTO를-활용한-모듈형-배차-알고리즘-설계하기)**                 |
+
+</div>
+
+
 <br/>
 <br/>
-<br/>
-<img alt="아키텍처" src="https://github.com/user-attachments/assets/e84f5e03-b313-4fcb-8e9d-f17a70588dc0" />
+<img alt="아키텍처" src="https://github.com/user-attachments/assets/e59388b0-9bda-4b14-85be-5637937851d2" />
 
 ## CI/CD 파이프라인
 
@@ -81,10 +117,10 @@
 
 ## 폴더 구조
 
-- [폴더 구조](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%8F%B4%EB%8D%94-%EA%B5%AC%EC%A1%B0)
+- [폴더 구조](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%EC%88%A0%EA%B3%BC-%ED%99%98%EA%B2%BD#%ED%8F%B4%EB%8D%94-%EA%B5%AC%EC%A1%B0)
 
 <br/><br/><br/>
-<img alt="기술스택" src="https://github.com/user-attachments/assets/40fee68a-401b-4c9c-9ef4-c0ffd9ce63ae" />
+<img alt="기술스택" src="https://github.com/user-attachments/assets/4495fe6f-fae3-45e6-9369-8658f7e8adfc" />
 
 ### Frontend
 
@@ -94,8 +130,10 @@
 ![TypeScript](https://github.com/user-attachments/assets/20788203-4a3a-4657-9138-83c998ce836f)
 ![Emotion](https://github.com/user-attachments/assets/db0b9097-d081-44fb-97dd-34822e2518fc)
 ![TanStack Query](https://github.com/user-attachments/assets/52d1d033-39b9-4ecf-997d-71a04ba775aa)
+<br/>
 ![vitest](https://github.com/user-attachments/assets/ce7018cc-ba98-45bb-b068-42eda615a632)
 ![React Testing Library](https://github.com/user-attachments/assets/dc495313-eb1e-46ae-a32d-c9c1ac678117)
+![cypress](https://github.com/user-attachments/assets/31ee8176-d24a-44b9-9322-20df322e7fef)
 
 ### Backend
 
@@ -117,17 +155,17 @@
 <br/>
 <br/>
 <br/>
-<img alt="팀소개" src="https://github.com/user-attachments/assets/f1a3a879-23f4-467c-a53f-59a299482a7d" />
+<img  alt="팀소개" src="https://github.com/user-attachments/assets/05278afc-67a4-4c72-9722-78361ccfd3c4" />
 
 ## 팀원 소개
 
 <div align="center">
 
-|                                         [김민정](https://github.com/minjeongss)                                          |                                          [유재민](https://github.com/jjamming)                                           |                                          [신지수](https://github.com/didyou88)                                           |                                           [성유진](https://github.com/jin20fd)                                           |
-| :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
-| <img alt="🐿️ 김민정" src="https://github.com/user-attachments/assets/a75e68d9-5d0b-4f02-8e4a-0017ff582ef1" width="120"/> | <img alt="🐤 유재민" src="https://github.com/user-attachments/assets/56d466bb-b998-4c84-936f-25260ad2130b" width="120"/> | <img alt="🐙 신지수" src="https://github.com/user-attachments/assets/3a020da6-03fa-4d07-a764-1386dffd464e" width="120"/> | <img alt="🦦 성유진" src="https://github.com/user-attachments/assets/f42bd4aa-6485-4487-a9c9-e9ef25c3040f" width="120"/> |
-|                                                        `Frontend`                                                        |                                                        `Frontend`                                                        |                                                        `Backend`                                                         |                                                        `Backend`                                                         |
-
+|                                                                         [김민정](https://github.com/minjeongss)                                                                          |                                                                          [유재민](https://github.com/jjamming)                                                                           |                                          [신지수](https://github.com/didyou88)                                           |                                                                           [성유진](https://github.com/jin20fd)                                                                            |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                <img alt="🐿️ 김민정" src="https://github.com/user-attachments/assets/a75e68d9-5d0b-4f02-8e4a-0017ff582ef1" width="120"/>                                 |                                 <img alt="🐤 유재민" src="https://github.com/user-attachments/assets/56d466bb-b998-4c84-936f-25260ad2130b" width="120"/>                                 | <img alt="🐙 신지수" src="https://github.com/user-attachments/assets/3a020da6-03fa-4d07-a764-1386dffd464e" width="120"/> |                                 <img alt="🦦 성유진" src="https://github.com/user-attachments/assets/f42bd4aa-6485-4487-a9c9-e9ef25c3040f" width="120"/>                                  |
+|                                                                                      `Frontend`                                                                                       |                                                                                      `Frontend`                                                                                       |                                                       `Backend`                                                       |                                                                                       `Backend`                                                                                        |
+| **[핵심 경험](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EA%B9%80%EB%AF%BC%EC%A0%95-(FE)>)** | **[핵심 경험](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%9C%A0%EC%9E%AC%EB%AF%BC-(FE)>)** |                                                    **[핵심 경험](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%8B%A0%EC%A7%80%EC%88%98-(BE)>)**                                                    | **[핵심 경험](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%84%B1%EC%9C%A0%EC%A7%84-(BE)>)**  |
 </div>
 
 ## 하이파이브의 협업 방법
@@ -145,10 +183,10 @@
 업무 관리는 Github Projects로 통일하여 관리합니다. 매주 Backlog를 쌓고 마일스톤을 할당한 뒤, 이번 주 진행할 작업을 Ready 상태로 이동합니다. 작업이 시작되면 In Progress로 상태를 변경하여 실시간 진행 상황을 공유합니다. 작업 종료 후 PR에 연결된 이슈가 Done으로 이동하며 작업의 완료를 알립니다.<br/><br/>
 오전 스크럼에서 오늘의 할 일을 공유할 때, 중간 점검에서 현재 업무 진도 현황을 확인할 때 Github Projects가 힘을 발휘합니다.
 
--> [프로젝트 일정 관리 방법 살펴보기🗂️](https://github.com/orgs/softeerbootcamp-6th/projects/5)
+→ [프로젝트 일정 관리 방법 살펴보기🗂️](https://github.com/orgs/softeerbootcamp-6th/projects/5)
 
 ### Git 컨벤션 관리
 
 Git 브랜치 전략과 커밋 메시지 컨벤션도 모두의 이해를 돕기 위해 명확하게 정의되어 있습니다. 모든 작업은 이슈 기반으로 관리되며, 브랜치 이름과 커밋 메시지는 통일된 규칙에 따라 작성합니다. 이를 통해 누구나 기록만 보고도 흐름을 파악할 수 있도록 합니다.
 
--> [Git 컨벤션 살펴보기🏷️](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%EA%B9%83%ED%97%88%EB%B8%8C-%EC%BB%A8%EB%B2%A4%EC%85%98)
+→ [Git 컨벤션 살펴보기🏷️](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%EA%B7%9C%EC%B9%99#%EF%B8%8F-%EA%B9%83%ED%97%88%EB%B8%8C-%EC%BB%A8%EB%B2%A4%EC%85%98)
