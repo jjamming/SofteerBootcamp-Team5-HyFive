@@ -14,16 +14,24 @@ interface TimePickerProps {
 
 const TimePicker = ({ onCancel, onConfirm }: TimePickerProps) => {
   const [selectedMeridiem, setSelectedMeridiem] = useState<Meridiem>("AM");
-  const [hour, setHour] = useState<string>("");
+  const [hour, setHour] = useState<string>("00");
   const [minute, setMinute] = useState<string>("00");
   const [errorMessage, setErrorMessage] = useState<string>("");
 
   // 시간 입력 핸들러
   const handleHourChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
+    const formattedValue = value.replace(/^0+/, "");
     // 0-12 범위만 허용
-    if (value === "" || (parseInt(value) >= 0 && parseInt(value) <= 12)) {
-      setHour(value);
+    if (parseInt(formattedValue) > 12) {
+      setErrorMessage("시간은 0-12 사이로 입력해주세요");
+      return;
+    }
+    if (
+      formattedValue === "" ||
+      (parseInt(formattedValue) >= 0 && parseInt(formattedValue) <= 12)
+    ) {
+      setHour(formattedValue);
       setErrorMessage("");
     }
   };
@@ -31,9 +39,16 @@ const TimePicker = ({ onCancel, onConfirm }: TimePickerProps) => {
   // 분 입력 핸들러
   const handleMinuteChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
-    // 0-59 범위만 허용
-    if (value === "" || (parseInt(value) >= 0 && parseInt(value) <= 59)) {
-      setMinute(value);
+    const formattedValue = value.replace(/^0+/, "");
+    if (parseInt(formattedValue) > 59) {
+      setErrorMessage("분은 0-59 사이로 입력해주세요");
+      return;
+    }
+    if (
+      value === "" ||
+      (parseInt(formattedValue) >= 0 && parseInt(formattedValue) <= 59)
+    ) {
+      setMinute(formattedValue);
       setErrorMessage("");
     }
   };
@@ -107,7 +122,6 @@ const TimePickerContainer = css`
   display: flex;
   width: 461px;
   flex-direction: column;
-  gap: 36px;
   padding-top: 40px;
   border: 1px solid ${color.GrayScale.gray3};
   border-radius: ${borderRadius.Large};
@@ -117,6 +131,7 @@ const TimePickerContainer = css`
 const TitleStyle = css`
   padding-left: 40px;
   padding-right: 40px;
+  margin-bottom: 36px;
   font: ${typography.Body.b1_medi};
   color: ${color.GrayScale.gray6};
 `;
@@ -179,9 +194,8 @@ const ButtonStyle = (type: "cancel" | "confirm") => css`
 `;
 
 const ErrorMessageStyle = css`
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 20px 40px 0 40px;
   font: ${typography.Body.b4_regu};
   color: ${color.Semantic.error};
-  text-align: center;
+  text-align: left;
 `;
