@@ -76,7 +76,7 @@
 
 ## 폴더 구조
 
-- [폴더 구조](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%8F%B4%EB%8D%94-%EA%B5%AC%EC%A1%B0)
+- [폴더 구조](<img alt="센터사진" src="https://github.com/user-attachments/assets/85da8a76-c6a2-42ac-947c-8a07497876e3" />)
 
 <br/><br/><br/>
 <img alt="기술스택" src="https://github.com/user-attachments/assets/4495fe6f-fae3-45e6-9369-8658f7e8adfc" />
