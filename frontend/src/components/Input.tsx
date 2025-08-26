@@ -16,6 +16,7 @@ interface InputProps {
   onClick?: () => void;
   onFocus?: () => void;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onKeyDown?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
   register?: UseFormRegisterReturn;
   errorMessage?: string;
 }
@@ -31,6 +32,7 @@ const Input = ({
   onClick,
   onFocus,
   onChange,
+  onKeyDown,
   register,
   errorMessage = "",
 }: InputProps) => {
@@ -63,6 +65,7 @@ const Input = ({
           readOnly={readOnly}
           onClick={onClick}
           onChange={onChange}
+          onKeyDown={onKeyDown}
           value={value}
           {...restRegister}
         />
