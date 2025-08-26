@@ -132,6 +132,7 @@
 ![TanStack Query](https://github.com/user-attachments/assets/52d1d033-39b9-4ecf-997d-71a04ba775aa)
 ![vitest](https://github.com/user-attachments/assets/ce7018cc-ba98-45bb-b068-42eda615a632)
 ![React Testing Library](https://github.com/user-attachments/assets/dc495313-eb1e-46ae-a32d-c9c1ac678117)
+![cypress](https://github.com/user-attachments/assets/31ee8176-d24a-44b9-9322-20df322e7fef)
 
 ### Backend
 
