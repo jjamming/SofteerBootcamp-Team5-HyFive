@@ -1,8 +1,9 @@
-# 📋 프로젝트 개요
+<img alt="프로젝트 개요" src="https://github.com/user-attachments/assets/63fa872d-1398-4700-b7fc-b390a6fbd101" />
+
 <img alt="소개이미지1" src="https://github.com/user-attachments/assets/aced3d90-5c8a-4f3f-b0fc-08732ba3d998" />
 <br/><br/>
 <div align="center">
-  <a href="https://서비스링크.com">
+  <a href="https://gachita.site">
     <img src="https://img.shields.io/badge/Service-%2300C4B3?style=for-the-badge&logo=vercel&logoColor=white&color=FF7700" alt="서비스 바로가기" />
   </a>
   <a href="https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki">
@@ -25,7 +26,10 @@
 <a href="#-팀-소개">👨‍👩‍👧‍ 팀 소개</a> <br>
 </p>
 
-# 🎨 서비스 소개
+<br/><br/><br/>
+<img alt="서비스 소개" src="https://github.com/user-attachments/assets/176fec9e-0196-4ae1-ac00-3254a2973cdf" />
+<br/><br/><br/><br/>
+
 <div align="center">
     <h4>
         “병원에 가고 싶어도, 마땅한 교통수단이 없어 병원에 가기 힘들어요.”<br><br>
@@ -36,30 +40,54 @@
     </h4>
     <br>
 </div>
-<img alt="기획서" src="https://github.com/user-attachments/assets/c3273ab8-4ef8-4e8b-a741-5d5050beae8c" />
 
-# 📌 주요 기능
-<img alt="주요기능" src="https://github.com/user-attachments/assets/c6293f2d-cb7f-48d4-9988-b1dec0d4ebfc" />
+<br/><br/><br/>
+<img alt="주요 기능" src="https://github.com/user-attachments/assets/894fa013-010d-450b-a7c0-8408646980c8" />
+<br/>
+<img alt="Image" src="https://github.com/user-attachments/assets/3605be64-e60b-4415-9927-e43540c08654"/>
+<img alt="Image" src="https://github.com/user-attachments/assets/75667069-6764-41a8-b2b8-ea631d387859"/>
 
-# ⚙️ 아키텍처
+<br/><br/><br/>
+<img alt="개별 핵심 경험" src="https://github.com/user-attachments/assets/3ebff144-9256-472a-9013-3b45e297ee8e" />
+<br/><br/><br/><br/>
+
+<div align="center">
+
+| 이름        | 문서 링크                                                                                                                                                                                                   |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김민정 (FE) | **[프로젝트 핵심 경험 - 김민정](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EA%B9%80%EB%AF%BC%EC%A0%95-(FE)>)** |
+| 유재민 (FE) | **[프로젝트 핵심 경험 - 유재민](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%9C%A0%EC%9E%AC%EB%AF%BC-(FE)>)** |
+| 성유진 (BE) | **[프로젝트 핵심 경험 - 성유진](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%84%B1%EC%9C%A0%EC%A7%84-(BE)>)** |
+| 신지수 (BE) | **[프로젝트 핵심 경험 - 신지수](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%8B%A0%EC%A7%80%EC%88%98-(BE)>)** |
+
+</div>
+
+<br/>
+<br/>
+<br/>
+<img alt="아키텍처" src="https://github.com/user-attachments/assets/e84f5e03-b313-4fcb-8e9d-f17a70588dc0" />
 
 ## CI/CD 파이프라인
+
 <div align="center">
-<img src="https://github.com/user-attachments/assets/2c868aec-54ed-41d8-a5ce-54f4e58d5be2" alt="cicd" style="max-width: 80%; height: auto;">
+<img alt="Image" src="https://github.com/user-attachments/assets/2cc6b76e-bcac-49e9-9243-cf0f1e696522"/>
 </div>
 
 ## ERD
+
 <div align="center">
-<img width="2040" height="1634" alt="erd" src="https://github.com/user-attachments/assets/7102fe0b-bb59-4ee1-ae52-e6b9a0c907ae" style="max-width: 80%; height: auto;"/>
+<img alt="Image" src="https://github.com/user-attachments/assets/2cfb1bbb-9e84-48ee-b41a-a0a21ac491c4"/>
 </div>
 
 ## 폴더 구조
+
 - [폴더 구조](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%8F%B4%EB%8D%94-%EA%B5%AC%EC%A1%B0)
 
-
-# 🛠 기술 스택
+<br/><br/><br/>
+<img alt="기술스택" src="https://github.com/user-attachments/assets/40fee68a-401b-4c9c-9ef4-c0ffd9ce63ae" />
 
 ### Frontend
+
 ![pnpm](https://github.com/user-attachments/assets/1d5df84a-cf9f-46ec-91bb-d7cd0d2cac3a)
 ![Vite](https://github.com/user-attachments/assets/bb61c864-3811-4492-ac56-46ad939f2632)
 ![React](https://github.com/user-attachments/assets/e59b2768-3f50-4646-8181-fe47f64f8912)
@@ -70,6 +98,7 @@
 ![React Testing Library](https://github.com/user-attachments/assets/dc495313-eb1e-46ae-a32d-c9c1ac678117)
 
 ### Backend
+
 ![springboot](https://github.com/user-attachments/assets/e9f38458-5d2b-491e-91a9-764d9007931a)
 ![jpa](https://github.com/user-attachments/assets/1bd69556-bb04-4b2a-8237-3eeb43482ffe)
 ![querydsl](https://github.com/user-attachments/assets/b40d2fc8-4de4-4761-9272-f5fd7a4bb3d5)
@@ -77,6 +106,7 @@
 ![mysql](https://github.com/user-attachments/assets/8c294b7e-678d-414f-95e3-6f3dce185dba)
 
 ### 인프라
+
 ![AWS EC2](https://github.com/user-attachments/assets/3c888bc3-b50b-453f-9b1b-ab10c3aed706)
 ![AWS RDS](https://github.com/user-attachments/assets/f20131c5-1c5a-49e5-8564-ed07ba876ebf)
 ![AWS S3](https://github.com/user-attachments/assets/0b0e1b9c-6993-48a1-906d-f2f62b25db87)
@@ -84,41 +114,41 @@
 ![AWS CloudFront](https://github.com/user-attachments/assets/a9c4e963-a054-45a4-939e-d5dae33f393d)
 ![GitHub Actions](https://github.com/user-attachments/assets/98ef3abf-347d-4a73-ba21-767762d572f6)
 
-# 📅 프로젝트 타임라인
-(추후 작성 예정)
-
-# 👨‍👩‍👧‍ 팀 소개
+<br/>
+<br/>
+<br/>
+<img alt="팀소개" src="https://github.com/user-attachments/assets/f1a3a879-23f4-467c-a53f-59a299482a7d" />
 
 ## 팀원 소개
-| [김민정](https://github.com/minjeongss) | [유재민](https://github.com/jjamming) | [신지수](https://github.com/didyou88) | [성유진](https://github.com/jin20fd) |
-| :--: | :--: | :--: | :--: |
-| <img alt="🐿️ 얼룩다람쥐" src="https://github.com/user-attachments/assets/2850d6d1-8a91-490d-a165-79a0f9b5b2a7" /> | <img alt="🐤 병아리" src="https://github.com/user-attachments/assets/57355521-3343-4c91-b278-2bf65d87c434" /> | <img alt="🐙 문어" src="https://github.com/user-attachments/assets/3c471eb1-c66b-42be-a9f9-16d1b7b9fe1f" /> | <img alt="🦦 수달" src="https://github.com/user-attachments/assets/8a7144b5-2e85-4bb0-b359-8797a2b74569" /> |
-| `Frontend` | `Frontend` | `Backend` | `Backend` |
+
+<div align="center">
+
+|                                         [김민정](https://github.com/minjeongss)                                          |                                          [유재민](https://github.com/jjamming)                                           |                                          [신지수](https://github.com/didyou88)                                           |                                           [성유진](https://github.com/jin20fd)                                           |
+| :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
+| <img alt="🐿️ 김민정" src="https://github.com/user-attachments/assets/a75e68d9-5d0b-4f02-8e4a-0017ff582ef1" width="120"/> | <img alt="🐤 유재민" src="https://github.com/user-attachments/assets/56d466bb-b998-4c84-936f-25260ad2130b" width="120"/> | <img alt="🐙 신지수" src="https://github.com/user-attachments/assets/3a020da6-03fa-4d07-a764-1386dffd464e" width="120"/> | <img alt="🦦 성유진" src="https://github.com/user-attachments/assets/f42bd4aa-6485-4487-a9c9-e9ef25c3040f" width="120"/> |
+|                                                        `Frontend`                                                        |                                                        `Frontend`                                                        |                                                        `Backend`                                                         |                                                        `Backend`                                                         |
+
+</div>
 
 ## 하이파이브의 협업 방법
+
 ### 그라운드룰
+
 하이파이브는 기록을 통해 협업하고, 기록을 통해 성장합니다. 기록은 스크럼, 회의록, 회고록으로 카테고리화되어 로그로 쌓입니다.<br/><br/>
 회의 큐 시스템을 도입하여, 팀의 모든 논의 사항은 회의 큐에 적재됩니다. 팀원들과 이야기 나누고 싶은 사항에 대해 언제든지 회의 큐 페이지에 작성할 수 있습니다. 논의 발생 → 회의 큐에 등록 → 회의 참여자 소집 → 회의 진행의 순서로 진행됩니다. 회의 효율성 UP! 불필요한 회의 DOWN!을 지향합니다.<br/><br/>
-주간 회고는 매주 금요일에 진행되며, 팀 전체와 개별의 관점에서 잘한 점, 개선할 점, 보완할 점을 공유합니다. 개선할 점은 스스로 작성하고, 팀원들이 개선 방법을 제안합니다. KPT 공유 후, 팀원별로 그 주 MVP였던 순간을 선정하며 한 주를 마무리합니다  
+주간 회고는 매주 금요일에 진행되며, 팀 전체와 개별의 관점에서 잘한 점, 개선할 점, 보완할 점을 공유합니다. 개선할 점은 스스로 작성하고, 팀원들이 개선 방법을 제안합니다. KPT 공유 후, 팀원별로 그 주 MVP였던 순간을 선정하며 한 주를 마무리합니다
 
 → [파이버들의 그라운드룰 살펴보기🔥](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%F0%9F%A4%9D-%ED%8C%80-%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C%EB%A3%B0)
 
 ### 프로젝트 관리
+
 업무 관리는 Github Projects로 통일하여 관리합니다. 매주 Backlog를 쌓고 마일스톤을 할당한 뒤, 이번 주 진행할 작업을 Ready 상태로 이동합니다. 작업이 시작되면 In Progress로 상태를 변경하여 실시간 진행 상황을 공유합니다. 작업 종료 후 PR에 연결된 이슈가 Done으로 이동하며 작업의 완료를 알립니다.<br/><br/>
 오전 스크럼에서 오늘의 할 일을 공유할 때, 중간 점검에서 현재 업무 진도 현황을 확인할 때 Github Projects가 힘을 발휘합니다.
 
 -> [프로젝트 일정 관리 방법 살펴보기🗂️](https://github.com/orgs/softeerbootcamp-6th/projects/5)
 
 ### Git 컨벤션 관리
+
 Git 브랜치 전략과 커밋 메시지 컨벤션도 모두의 이해를 돕기 위해 명확하게 정의되어 있습니다. 모든 작업은 이슈 기반으로 관리되며, 브랜치 이름과 커밋 메시지는 통일된 규칙에 따라 작성합니다. 이를 통해 누구나 기록만 보고도 흐름을 파악할 수 있도록 합니다.
 
 -> [Git 컨벤션 살펴보기🏷️](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%EA%B9%83%ED%97%88%EB%B8%8C-%EC%BB%A8%EB%B2%A4%EC%85%98)
-
-## 하이파이브의 개별 핵심 경험
-
-이름 | 링크
--- | --
-김민정 |  
-유재민 |  
-성유진 |  
-신지수 |  
