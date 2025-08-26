@@ -43,6 +43,11 @@ public interface BookDocs {
                     responseCode = "5000",
                     description = "사용자는 동일한 날짜에 하나의 예약만 가능하므로, 같은 날짜에 여러 건의 예약은 불가합니다.",
                     content = @Content()
+            ),
+            @ApiResponse(
+                    responseCode = "5001",
+                    description = "서비스 지역은 노원구로 제한됩니다.",
+                    content = @Content()
             )
     })
     BaseResponse<BookRes> createBook(
