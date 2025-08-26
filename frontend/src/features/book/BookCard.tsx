@@ -30,7 +30,7 @@ const BookCard = ({ bookType, data, isActive }: BookCardProps) => {
         </div>
         <div css={DateWrapper(bookType)}>
           <p>이용 희망 날짜</p>
-          <p>{data.bookDate}</p>
+          <p>{data.hospitalDate}</p>
         </div>
         <div css={LocationWrapper}>
           <p>{data.userStartLocation}</p>
