@@ -45,9 +45,9 @@
 <img alt="주요기능" src="https://github.com/user-attachments/assets/256bdc69-553f-464f-a039-b90abc8c65a8" />
 <br/>
 <img alt="Image" src="https://github.com/user-attachments/assets/3605be64-e60b-4415-9927-e43540c08654"/>
-<img alt="Image" src="https://github.com/user-attachments/assets/75667069-6764-41a8-b2b8-ea631d387859"/>
+<img alt="센터사진" src="https://github.com/user-attachments/assets/85da8a76-c6a2-42ac-947c-8a07497876e3" />
 
-<br/><br/><br/>
+<br/><br/>
 <img alt="주요기능구현과정" src="https://github.com/user-attachments/assets/2aa2641c-2f98-433f-81ff-f3f620fbae48" />
 <br/><br/><br/><br/>
 
