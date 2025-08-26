@@ -49,15 +49,32 @@
 
 <br/><br/>
 <img alt="주요기능구현과정" src="https://github.com/user-attachments/assets/2aa2641c-2f98-433f-81ff-f3f620fbae48" />
-<br/><br/><br/><br/>
+<br/>
 
 <div align="center">
 
+### Frontend
+| 주제 | 문서 링크                                                                                                                                                                     |
+|------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 🧪 **프론트엔드에서도 단위테스트가 필요할까?** | **[Vitest를 이용한 컴포넌트 테스트 진행](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/Vitest를-이용한-컴포넌트-테스트-진행)**                                                           |
+| 🕐 **내 손가락이 시간표를 지배할 수 있을까?** | **[클릭과 드래그앤드롭으로 빈 시간 등록하기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/클릭과-드래그앤드롭으로-빈-시간-등록하기)**                                                             |
+| 📍 **엔터 한 방에 세상 모든 장소를 불러왔다** | **[사용자 입력 기반 장소 검색 및 자동완성 기능 개발](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/사용자-입력-기반-장소-검색-및-자동완성-기능-개발)**                                                 |
+| 🗺️ **지도를 불러왔더니 에러도 같이 왔다** | **[지도 렌더링을 현명하게 하는 방법](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/지도-렌더링을-현명하게-하는-방법)**                                                                     |
+| 🔥  **가치타의 Polling은 뒤로 갈수록 강해진다** | **[Adaptive와 Exponential Backoff Polling을 통한 실시간 통신 구축기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/Adaptive와-Exponential-Backoff-Polling을-통한-실시간-통신-구축기)** |
+| ⚡ **CI/CD가 내 손가락보다 빠른 이유.txt** | **[pnpm 캐싱과 CloudFront 캐시 무효화를 도입한 CI-CD 파이프라인](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/pnpm-캐싱과-CloudFront-캐시-무효화를-도입한-CI-CD-파이프라인)**                   |
 
+### Backend
+| 주제 | 문서 링크                                                                                                                                         |
+|------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| 🤔 **저 어디에 타면 될까요..?** | **[배차 알고리즘의 모든 것](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/배차-알고리즘의-모든-것)**                                                                                                            |
+| 🚐 **'가치타'가 아닌 '혼자타'가 될 뻔한 이유!?** | **[한 경로에 다수 인원을 배차하도록 slack 도입하기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/한-경로에-다수-인원을-배차하도록-slack-도입하기)**                   |
+| 🥺 **배차가 안 잡히니? 반경을 바꿔보자.** | **[동적 반경 조정으로 제한된 API 쿼터 내에서 성공적인 배차 달성하기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/동적-반경-조정으로-제한된-API-쿼터-내에서-성공적인-배차-달성하기)** |
+| **🚗 "11시간 중 2시간만 일한다고?"** | **[차량 유휴시간 분할 관리를 통한 배차 알고리즘 개선하기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/차량-유휴시간-분할-관리를-통한-배차-알고리즘-개선하기)**                 |
+| 😨 **"정책 바뀌면 야근?" → 😎 "5분이면 되는데요?"** | **[스트림과 DTO를 활용한 모듈형 배차 알고리즘 설계하기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/스트림과-DTO를-활용한-모듈형-배차-알고리즘-설계하기)**                 |
 
 </div>
 
-<br/>
+
 <br/>
 <br/>
 <img alt="아키텍처" src="https://github.com/user-attachments/assets/e59388b0-9bda-4b14-85be-5637937851d2" />
