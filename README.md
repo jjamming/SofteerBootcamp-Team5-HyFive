@@ -63,7 +63,7 @@
 센터가 보유한 차량의 유휴 시간을 등록할 수 있는 기능입니다.
 등록된 유휴 시간 동안 차량을 가치타 서비스에 제공합니다.
 
-<img alt="센터사진" src="https://github.com/user-attachments/assets/85da8a76-c6a2-42ac-947c-8a07497876e3" />
+<img alt="센터 사진" src="https://github.com/user-attachments/assets/2afc261e-b8ec-439b-9119-75763486ace8" />
 
 <br/><br/>
 <img alt="주요기능구현과정" src="https://github.com/user-attachments/assets/2aa2641c-2f98-433f-81ff-f3f620fbae48" />
