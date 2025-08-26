@@ -41,9 +41,10 @@
 <img alt="주요기능구현과정" src="https://github.com/user-attachments/assets/2aa2641c-2f98-433f-81ff-f3f620fbae48" />
 <br/>
 
+### Frontend
+
 <div align="center">
 
-### Frontend
 | 주제 | 문서 링크                                                                                                                                                                     |
 |------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 🧪 **프론트엔드에서도 단위테스트가 필요할까?** | **[Vitest를 이용한 컴포넌트 테스트 진행](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/Vitest를-이용한-컴포넌트-테스트-진행)**                                                           |
@@ -53,7 +54,12 @@
 | 🔥  **가치타의 Polling은 뒤로 갈수록 강해진다** | **[Adaptive와 Exponential Backoff Polling을 통한 실시간 통신 구축기](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/Adaptive와-Exponential-Backoff-Polling을-통한-실시간-통신-구축기)** |
 | ⚡ **CI/CD가 내 손가락보다 빠른 이유.txt** | **[pnpm 캐싱과 CloudFront 캐시 무효화를 도입한 CI-CD 파이프라인](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/pnpm-캐싱과-CloudFront-캐시-무효화를-도입한-CI-CD-파이프라인)**                   |
 
+</div>
+
 ### Backend
+
+<div align="center">
+
 | 주제 | 문서 링크                                                                                                                                         |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | 🤔 **저 어디에 타면 될까요..?** | **[배차 알고리즘의 모든 것](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/배차-알고리즘의-모든-것)**                                                                                                            |
