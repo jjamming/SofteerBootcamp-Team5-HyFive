@@ -42,6 +42,7 @@ public enum ErrorCode {
 
     /*예약 5000*/
     DUPLICATE_BOOK_DATE(false, 5000, "동일한 사용자에 의해 이미 예약된 날짜입니다."),
+    NO_SERVICE_REGION(false, 5001, "서비스 지역이 아닙니다."),
 
     /*경로 5500*/
     NO_EXIST_NODE_LIST(false, 5500, "노드 리스트가 존재하지 않습니다."),

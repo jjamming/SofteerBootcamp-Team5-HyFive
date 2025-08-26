@@ -9,6 +9,7 @@ import hyfive.gachita.application.common.dto.PagedListRes;
 import hyfive.gachita.application.common.dto.ScrollRes;
 import hyfive.gachita.application.common.enums.SearchPeriod;
 import hyfive.gachita.application.common.util.AddressParser;
+import hyfive.gachita.application.common.util.AddressRestriction;
 import hyfive.gachita.application.common.util.DateRangeUtil;
 import hyfive.gachita.application.path.Path;
 import hyfive.gachita.client.geocode.GeoCodeService;
@@ -39,6 +40,11 @@ public class BookService {
     public Book createBook(CreateBookReq createBookReq) {
         if (bookRepository.existsBookByBookTelAndHospitalDate(createBookReq.bookTel(), createBookReq.hospitalDate())) {
             throw new BusinessException(ErrorCode.DUPLICATE_BOOK_DATE);
+        }
+
+        if(AddressRestriction.isNotServiceRegion(createBookReq.endAddr()) ||
+        AddressRestriction.isNotServiceRegion(createBookReq.startAddr())) {
+            throw new BusinessException(ErrorCode.NO_SERVICE_REGION);
         }
 
         String startAddr = AddressParser.extractRoadAddress(createBookReq.startAddr())
