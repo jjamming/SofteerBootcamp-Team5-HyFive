@@ -27,6 +27,9 @@
 </p>
 
 <br/><br/><br/>
+<a href="#-서비스-소개">
+<img style="width: 100%" src="https://github.com/user-attachments/assets/248cdbbc-823d-46f7-b525-9d69928892e0" alt="서비스 소개" width="200"/>
+</a>
 <img alt="서비스소개" src="https://github.com/user-attachments/assets/248cdbbc-823d-46f7-b525-9d69928892e0" />
 <br/><br/><br/><br/>
 
