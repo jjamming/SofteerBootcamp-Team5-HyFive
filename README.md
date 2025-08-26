@@ -26,14 +26,9 @@
 <a href="#-팀-소개">👨‍👩‍👧‍ 팀 소개</a> <br>
 </p>
 
-<br/>
-<br/>
-<br/>
+<br/><br/><br/>
 <img alt="서비스 소개" src="https://github.com/user-attachments/assets/176fec9e-0196-4ae1-ac00-3254a2973cdf" />
-<br/>
-<br/>
-<br/>
-<br/>
+<br/><br/><br/><br/>
 
 <div align="center">
     <h4>
@@ -46,20 +41,15 @@
     <br>
 </div>
 
-<br/>
-<br/>
-<br/>
+<br/><br/><br/>
 <img alt="주요 기능" src="https://github.com/user-attachments/assets/894fa013-010d-450b-a7c0-8408646980c8" />
 <br/>
 <img alt="Image" src="https://github.com/user-attachments/assets/3605be64-e60b-4415-9927-e43540c08654"/>
 <img alt="Image" src="https://github.com/user-attachments/assets/75667069-6764-41a8-b2b8-ea631d387859"/>
 
-<br/>
-<br/>
-<br/>
-<br/>
+<br/><br/><br/>
 <img alt="개별 핵심 경험" src="https://github.com/user-attachments/assets/3ebff144-9256-472a-9013-3b45e297ee8e" />
-<br/>
+<br/><br/><br/><br/>
 
 <div align="center">
 
@@ -93,9 +83,7 @@
 
 - [폴더 구조](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%8F%B4%EB%8D%94-%EA%B5%AC%EC%A1%B0)
 
-<br/>
-<br/>
-<br/>
+<br/><br/><br/>
 <img alt="기술스택" src="https://github.com/user-attachments/assets/40fee68a-401b-4c9c-9ef4-c0ffd9ce63ae" />
 
 ### Frontend
