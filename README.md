@@ -1,4 +1,4 @@
-<img alt="프로젝트 개요" src="https://github.com/user-attachments/assets/63fa872d-1398-4700-b7fc-b390a6fbd101" />
+<img alt="프로젝트개요" src="https://github.com/user-attachments/assets/f1c5a223-1344-49e4-a63c-d70306047107" />
 
 <img alt="소개이미지1" src="https://github.com/user-attachments/assets/aced3d90-5c8a-4f3f-b0fc-08732ba3d998" />
 <br/><br/>
@@ -27,7 +27,7 @@
 </p>
 
 <br/><br/><br/>
-<img alt="서비스 소개" src="https://github.com/user-attachments/assets/176fec9e-0196-4ae1-ac00-3254a2973cdf" />
+<img alt="서비스소개" src="https://github.com/user-attachments/assets/248cdbbc-823d-46f7-b525-9d69928892e0" />
 <br/><br/><br/><br/>
 
 <div align="center">
@@ -42,30 +42,25 @@
 </div>
 
 <br/><br/><br/>
-<img alt="주요 기능" src="https://github.com/user-attachments/assets/894fa013-010d-450b-a7c0-8408646980c8" />
+<img alt="주요기능" src="https://github.com/user-attachments/assets/256bdc69-553f-464f-a039-b90abc8c65a8" />
 <br/>
 <img alt="Image" src="https://github.com/user-attachments/assets/3605be64-e60b-4415-9927-e43540c08654"/>
 <img alt="Image" src="https://github.com/user-attachments/assets/75667069-6764-41a8-b2b8-ea631d387859"/>
 
 <br/><br/><br/>
-<img alt="개별 핵심 경험" src="https://github.com/user-attachments/assets/3ebff144-9256-472a-9013-3b45e297ee8e" />
+<img alt="주요기능구현과정" src="https://github.com/user-attachments/assets/2aa2641c-2f98-433f-81ff-f3f620fbae48" />
 <br/><br/><br/><br/>
 
 <div align="center">
 
-| 이름        | 문서 링크                                                                                                                                                                                                   |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 김민정 (FE) | **[프로젝트 핵심 경험 - 김민정](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EA%B9%80%EB%AF%BC%EC%A0%95-(FE)>)** |
-| 유재민 (FE) | **[프로젝트 핵심 경험 - 유재민](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%9C%A0%EC%9E%AC%EB%AF%BC-(FE)>)** |
-| 성유진 (BE) | **[프로젝트 핵심 경험 - 성유진](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%84%B1%EC%9C%A0%EC%A7%84-(BE)>)** |
-| 신지수 (BE) | **[프로젝트 핵심 경험 - 신지수](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%8B%A0%EC%A7%80%EC%88%98-(BE)>)** |
+
 
 </div>
 
 <br/>
 <br/>
 <br/>
-<img alt="아키텍처" src="https://github.com/user-attachments/assets/e84f5e03-b313-4fcb-8e9d-f17a70588dc0" />
+<img alt="아키텍처" src="https://github.com/user-attachments/assets/e59388b0-9bda-4b14-85be-5637937851d2" />
 
 ## CI/CD 파이프라인
 
@@ -84,7 +79,7 @@
 - [폴더 구조](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%8F%B4%EB%8D%94-%EA%B5%AC%EC%A1%B0)
 
 <br/><br/><br/>
-<img alt="기술스택" src="https://github.com/user-attachments/assets/40fee68a-401b-4c9c-9ef4-c0ffd9ce63ae" />
+<img alt="기술스택" src="https://github.com/user-attachments/assets/4495fe6f-fae3-45e6-9369-8658f7e8adfc" />
 
 ### Frontend
 
@@ -117,17 +112,17 @@
 <br/>
 <br/>
 <br/>
-<img alt="팀소개" src="https://github.com/user-attachments/assets/f1a3a879-23f4-467c-a53f-59a299482a7d" />
+<img  alt="팀소개" src="https://github.com/user-attachments/assets/05278afc-67a4-4c72-9722-78361ccfd3c4" />
 
 ## 팀원 소개
 
 <div align="center">
 
-|                                         [김민정](https://github.com/minjeongss)                                          |                                          [유재민](https://github.com/jjamming)                                           |                                          [신지수](https://github.com/didyou88)                                           |                                           [성유진](https://github.com/jin20fd)                                           |
-| :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
-| <img alt="🐿️ 김민정" src="https://github.com/user-attachments/assets/a75e68d9-5d0b-4f02-8e4a-0017ff582ef1" width="120"/> | <img alt="🐤 유재민" src="https://github.com/user-attachments/assets/56d466bb-b998-4c84-936f-25260ad2130b" width="120"/> | <img alt="🐙 신지수" src="https://github.com/user-attachments/assets/3a020da6-03fa-4d07-a764-1386dffd464e" width="120"/> | <img alt="🦦 성유진" src="https://github.com/user-attachments/assets/f42bd4aa-6485-4487-a9c9-e9ef25c3040f" width="120"/> |
-|                                                        `Frontend`                                                        |                                                        `Frontend`                                                        |                                                        `Backend`                                                         |                                                        `Backend`                                                         |
-
+|                                                                         [김민정](https://github.com/minjeongss)                                                                          |                                                                          [유재민](https://github.com/jjamming)                                                                           |                                                                          [신지수](https://github.com/didyou88)                                                                           |                                                                           [성유진](https://github.com/jin20fd)                                                                            |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                <img alt="🐿️ 김민정" src="https://github.com/user-attachments/assets/a75e68d9-5d0b-4f02-8e4a-0017ff582ef1" width="120"/>                                 |                                 <img alt="🐤 유재민" src="https://github.com/user-attachments/assets/56d466bb-b998-4c84-936f-25260ad2130b" width="120"/>                                 |                                 <img alt="🐙 신지수" src="https://github.com/user-attachments/assets/3a020da6-03fa-4d07-a764-1386dffd464e" width="120"/>                                 |                                 <img alt="🦦 성유진" src="https://github.com/user-attachments/assets/f42bd4aa-6485-4487-a9c9-e9ef25c3040f" width="120"/>                                  |
+|                                                                                      `Frontend`                                                                                       |                                                                                      `Frontend`                                                                                       |                                                                                       `Backend`                                                                                       |                                                                                       `Backend`                                                                                        |
+| **[핵심 경험](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EA%B9%80%EB%AF%BC%EC%A0%95-(FE)>)** | **[핵심 경험](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%9C%A0%EC%9E%AC%EB%AF%BC-(FE)>)** | **[핵심 경험](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%84%B1%EC%9C%A0%EC%A7%84-(BE)>)** | **[핵심 경험](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%8B%A0%EC%A7%80%EC%88%98-(BE)>)**  |
 </div>
 
 ## 하이파이브의 협업 방법
