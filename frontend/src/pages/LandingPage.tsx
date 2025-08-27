@@ -74,8 +74,9 @@ const LottieWrapper = css`
 `;
 
 const PageTitleText = css`
-  font-size: 48px;
-  font-weight: 700;
+  font:
+    600 48px / normal "Pretendard",
+    sans-serif;
   letter-spacing: 1.92px;
   color: ${color.GrayScale.gray6};
 `;
