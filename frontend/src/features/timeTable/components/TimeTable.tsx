@@ -76,16 +76,26 @@ const TimeTable = ({
     [selectedCarId, nextWeekKey],
   );
 
+  const handleSuccessGetTimeSlot = useCallback(
+    (response: TimeSlotAPIResponse) => {
+      setTimeSlotsDraft(response.data);
+      setPreviewSlot(null);
+      setShowSlots(true);
+    },
+    [],
+  );
+
   const slotsDisabled = Boolean(previewSlot);
 
   const queryClient = useQueryClient();
   const { createTimeSlot, error: postError } = usePostTimeSlot();
   const {
-    timeSlotData,
     isFetching,
     error: fetchError,
     refetch,
-  } = useGetTimeSlot(selectedCarId, nextWeekKey);
+  } = useGetTimeSlot(selectedCarId, nextWeekKey, {
+    onSuccess: handleSuccessGetTimeSlot,
+  });
 
   // Error 관련 상태
   const activeError = postError ?? fetchError;
@@ -120,14 +130,6 @@ const TimeTable = ({
     });
     return () => window.cancelAnimationFrame(rafId);
   }, [selectedCarId, selectedWeek]);
-
-  // 새로운 데이터가 로드되면 draft 상태 초기화
-  useEffect(() => {
-    if (isFetching || !timeSlotData) return;
-    setTimeSlotsDraft(timeSlotData);
-    setPreviewSlot(null);
-    setShowSlots(true);
-  }, [isFetching, timeSlotData]);
 
   const handleCancelClick = useCallback(() => {
     const cachedSlotData =
