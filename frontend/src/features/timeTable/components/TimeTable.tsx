@@ -108,16 +108,24 @@ const TimeTable = ({
       setPreviewSlot: setPreviewSlot,
     });
 
-  // selectedCarId나 selectedWeek이 변경되면 draft 상태 초기화 및 애니메이션 처리
+  // selectedCarId나 selectedWeek이 변경되면 상태 초기화 및 애니메이션 처리
+  // 기존 Effect 1(draft 초기화 + displayWeek 전환)과 Effect 2(handleCancelClick)를 병합
+  // deps: onEditModeChange, queryClient, queryKey는 트리거 목적이 아니므로 의도적 제외
   useEffect(() => {
+    onEditModeChange?.(false);
     setShowSlots(false);
-    setTimeSlotsDraft([]);
     setPreviewSlot(null);
 
-    const rafId = window.requestAnimationFrame(() => {
+    const cachedSlotData =
+      queryClient.getQueryData<TimeSlotAPIResponse>(queryKey);
+    setTimeSlotsDraft(cachedSlotData?.data ?? []);
+
+    const rafId = requestAnimationFrame(() => {
       setDisplayWeek(selectedWeek);
+      setShowSlots(true);
     });
-    return () => window.cancelAnimationFrame(rafId);
+    return () => cancelAnimationFrame(rafId);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedCarId, selectedWeek]);
 
   // 새로운 데이터가 로드되면 draft 상태 초기화
@@ -140,10 +148,6 @@ const TimeTable = ({
 
     onEditModeChange?.(false);
   }, [queryClient, queryKey, onEditModeChange]);
-
-  useEffect(() => {
-    handleCancelClick();
-  }, [selectedWeek, selectedCarId, handleCancelClick]);
 
   const handleSaveClick = async () => {
     await createTimeSlotAsync({
