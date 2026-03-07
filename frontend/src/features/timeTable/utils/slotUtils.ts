@@ -17,30 +17,4 @@ export const slotUtils = {
       a.rentalEndTime === b.rentalEndTime
     );
   },
-
-  /**
-   * 슬롯 배열에서 특정 슬롯을 찾아 제거합니다.
-   * @param slots 슬롯 배열
-   * @param targetSlot 제거할 대상 슬롯
-   * @returns 대상 슬롯이 제거된 새로운 배열
-   */
-  removeSlot: (
-    slots: AvailableTimeSlotType[],
-    targetSlot: AvailableTimeSlotType,
-  ): AvailableTimeSlotType[] => {
-    return slots.filter((slot) => !slotUtils.isSameSlot(slot, targetSlot));
-  },
-
-  /**
-   * 슬롯 배열에 새로운 슬롯을 추가합니다.
-   * @param slots 기존 슬롯 배열
-   * @param newSlot 추가할 새로운 슬롯
-   * @returns 새로운 슬롯이 추가된 배열
-   */
-  addSlot: (
-    slots: AvailableTimeSlotType[],
-    newSlot: AvailableTimeSlotType,
-  ): AvailableTimeSlotType[] => {
-    return [newSlot, ...slots];
-  },
 };
