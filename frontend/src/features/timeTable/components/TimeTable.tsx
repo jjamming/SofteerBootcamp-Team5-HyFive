@@ -79,12 +79,11 @@ const TimeTable = ({
   const slotsDisabled = Boolean(previewSlot);
 
   const queryClient = useQueryClient();
-  const { createTimeSlot, error: postError } = usePostTimeSlot();
+  const { createTimeSlotAsync, error: postError } = usePostTimeSlot();
   const {
     timeSlotData,
     isFetching,
     error: fetchError,
-    refetch,
   } = useGetTimeSlot(selectedCarId, nextWeekKey);
 
   // Error 관련 상태
@@ -146,13 +145,12 @@ const TimeTable = ({
     handleCancelClick();
   }, [selectedWeek, selectedCarId, handleCancelClick]);
 
-  const handleSaveClick = () => {
-    createTimeSlot({
+  const handleSaveClick = async () => {
+    await createTimeSlotAsync({
       selectedCarId,
       weekKey,
       timeSlots: timeSlotsDraft,
     });
-    void refetch();
     onEditModeChange?.(false);
   };
 
