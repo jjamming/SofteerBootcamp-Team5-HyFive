@@ -123,36 +123,15 @@
 <img alt="기술스택" src="https://github.com/user-attachments/assets/cf709cf6-b478-4524-8f89-73d5710efb29" />
 
 ### Frontend
-
-![pnpm](https://github.com/user-attachments/assets/1d5df84a-cf9f-46ec-91bb-d7cd0d2cac3a)
-![Vite](https://github.com/user-attachments/assets/bb61c864-3811-4492-ac56-46ad939f2632)
-![React](https://github.com/user-attachments/assets/e59b2768-3f50-4646-8181-fe47f64f8912)
-![TypeScript](https://github.com/user-attachments/assets/20788203-4a3a-4657-9138-83c998ce836f)
-![Emotion](https://github.com/user-attachments/assets/db0b9097-d081-44fb-97dd-34822e2518fc)
-![TanStack Query](https://github.com/user-attachments/assets/52d1d033-39b9-4ecf-997d-71a04ba775aa)
-<br/>
-![vitest](https://github.com/user-attachments/assets/ce7018cc-ba98-45bb-b068-42eda615a632)
-![React Testing Library](https://github.com/user-attachments/assets/dc495313-eb1e-46ae-a32d-c9c1ac678117)
-![cypress](https://github.com/user-attachments/assets/31ee8176-d24a-44b9-9322-20df322e7fef)
+- React, TypeScript, Vite, Emotion, TanStack Query
+- Vitest, React Testing Library, Cypress
 
 ### Backend
-
-![springboot](https://github.com/user-attachments/assets/e9f38458-5d2b-491e-91a9-764d9007931a)
-![jpa](https://github.com/user-attachments/assets/1bd69556-bb04-4b2a-8237-3eeb43482ffe)
-![querydsl](https://github.com/user-attachments/assets/b40d2fc8-4de4-4761-9272-f5fd7a4bb3d5)
-![Java](https://github.com/user-attachments/assets/7fb1a331-0ff7-4ffd-9ce6-74f5e2eaf0a7)
-![mysql](https://github.com/user-attachments/assets/8c294b7e-678d-414f-95e3-6f3dce185dba)
+- Java, Spring Boot, JPA, QueryDSL, MySQL
 
 ### 인프라
+- AWS (EC2, RDS, S3, CloudFront, CodeDeploy), GitHub Actions
 
-![AWS EC2](https://github.com/user-attachments/assets/3c888bc3-b50b-453f-9b1b-ab10c3aed706)
-![AWS RDS](https://github.com/user-attachments/assets/f20131c5-1c5a-49e5-8564-ed07ba876ebf)
-![AWS S3](https://github.com/user-attachments/assets/0b0e1b9c-6993-48a1-906d-f2f62b25db87)
-![AWS CodeDeploy](https://github.com/user-attachments/assets/aa8b0356-ba21-4b33-8ff2-bde5eadda8bf)
-![AWS CloudFront](https://github.com/user-attachments/assets/a9c4e963-a054-45a4-939e-d5dae33f393d)
-![GitHub Actions](https://github.com/user-attachments/assets/98ef3abf-347d-4a73-ba21-767762d572f6)
-
-<br/>
 <br/>
 <br/>
 <img alt="팀소개" src="https://github.com/user-attachments/assets/935c723e-6f09-4ddf-9c62-76c9bfdffc59" />
