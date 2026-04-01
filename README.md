@@ -1,4 +1,4 @@
-<img alt="소개이미지1" src="https://github.com/user-attachments/assets/aced3d90-5c8a-4f3f-b0fc-08732ba3d998" />
+<img alt="소개이미지1" src="https://github.com/user-attachments/assets/dc6bc04a-8c1a-4471-986e-41ce9d045a8a" />
 <br/><br/>
 <div align="center">
   <a href="https://gachita.site">
@@ -17,13 +17,13 @@
 <br/>
 
 <br/><br/><br/>
-<img alt="서비스소개" src="https://github.com/user-attachments/assets/248cdbbc-823d-46f7-b525-9d69928892e0" />
+<img alt="서비스소개" src="https://github.com/user-attachments/assets/81c0156d-93ca-4de4-977b-a3b7ae87dbdf" />
 <br/><br/><br/><br/>
 
 <div align="center">
     <h4>
-        “병원에 가고 싶어도, 마땅한 교통수단이 없어 병원에 가기 힘들어요.”<br><br>
-        “비어 있는 시간의 차량을, 다른 어르신들의 이동에도 활용할 수 있으면 좋겠어요”<br><br>
+        "병원에 가고 싶어도, 마땅한 교통수단이 없어 병원에 가기 힘들어요."<br><br>
+        "비어 있는 시간의 차량을, 다른 어르신들의 이동에도 활용할 수 있으면 좋겠어요"<br><br>
         이동이 어려운 고령자와<br>
         유휴 차량이 있는 주간보호센터를 연결하여<br>
         모두에게 도움이 되는 병원이동 서비스를 만듭니다.
@@ -32,12 +32,12 @@
 </div>
 
 <br/><br/><br/>
-<img alt="주요기능" src="https://github.com/user-attachments/assets/256bdc69-553f-464f-a039-b90abc8c65a8" />
+<img alt="주요기능" src="https://github.com/user-attachments/assets/22df53cb-35af-4027-ae6e-8897fa18be24" />
 <br/>
 ## 관리자용 페이지
 
 ### 1. 신규 예약 접수
-고객에게 예약 문의 전화가 오면, 관리자가 예약 정보를 받아 시스템에 등록하는 기능입니다.  
+고객에게 예약 문의 전화가 오면, 관리자가 예약 정보를 받아 시스템에 등록하는 기능입니다.
 예약이 등록되면 배차 알고리즘이 실행되어 특정 경로에 배차됩니다.
 
 ### 2. 실시간 예약 현황
@@ -52,7 +52,7 @@
 - 지도에서 운행 경로 시각화
 - 각 경유지에서 탑승 및 하차하는 고객 정보 표시
 
-<img alt="Image" src="https://github.com/user-attachments/assets/3605be64-e60b-4415-9927-e43540c08654"/>
+<img alt="Image" src="https://github.com/user-attachments/assets/042d5332-8010-4e41-a5f7-4db58d7b1bb7"/>
 
 ## 센터용 페이지
 
@@ -63,10 +63,10 @@
 센터가 보유한 차량의 유휴 시간을 등록할 수 있는 기능입니다.
 등록된 유휴 시간 동안 차량을 가치타 서비스에 제공합니다.
 
-<img alt="센터사진" src="https://github.com/user-attachments/assets/0f4daab8-1c9e-4756-9d1f-661f394d5b6c" />
+<img alt="센터사진" src="https://github.com/user-attachments/assets/87928eab-7773-4402-971a-7448fd23cf07" />
 
 <br/><br/>
-<img alt="주요기능구현과정" src="https://github.com/user-attachments/assets/2aa2641c-2f98-433f-81ff-f3f620fbae48" />
+<img alt="주요기능구현과정" src="https://github.com/user-attachments/assets/d588f6ac-1b97-4396-a871-a6db637505a6" />
 <br/>
 
 ### Frontend
@@ -101,18 +101,18 @@
 
 <br/>
 <br/>
-<img alt="아키텍처" src="https://github.com/user-attachments/assets/e59388b0-9bda-4b14-85be-5637937851d2" />
+<img alt="아키텍처" src="https://github.com/user-attachments/assets/b6189a03-7447-4999-9257-5cf5c3e2f461" />
 
 ## CI/CD 파이프라인
 
 <div align="center">
-<img alt="Image" src="https://github.com/user-attachments/assets/2cc6b76e-bcac-49e9-9243-cf0f1e696522"/>
+<img alt="Image" src="https://github.com/user-attachments/assets/0ea4a249-4b4b-4f92-a9c7-c6c334aa46a6"/>
 </div>
 
 ## ERD
 
 <div align="center">
-<img alt="Image" src="https://github.com/user-attachments/assets/2cfb1bbb-9e84-48ee-b41a-a0a21ac491c4"/>
+<img alt="Image" src="https://github.com/user-attachments/assets/65089b6a-3703-495a-bf65-d9a90b62628f"/>
 </div>
 
 ## 폴더 구조
@@ -120,7 +120,7 @@
 - [폴더 구조](https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%EC%88%A0%EA%B3%BC-%ED%99%98%EA%B2%BD#%ED%8F%B4%EB%8D%94-%EA%B5%AC%EC%A1%B0)
 
 <br/><br/><br/>
-<img alt="기술스택" src="https://github.com/user-attachments/assets/4495fe6f-fae3-45e6-9369-8658f7e8adfc" />
+<img alt="기술스택" src="https://github.com/user-attachments/assets/cf709cf6-b478-4524-8f89-73d5710efb29" />
 
 ### Frontend
 
@@ -155,7 +155,7 @@
 <br/>
 <br/>
 <br/>
-<img  alt="팀소개" src="https://github.com/user-attachments/assets/05278afc-67a4-4c72-9722-78361ccfd3c4" />
+<img alt="팀소개" src="https://github.com/user-attachments/assets/935c723e-6f09-4ddf-9c62-76c9bfdffc59" />
 
 ## 팀원 소개
 
@@ -163,7 +163,7 @@
 
 |                                                                         [김민정](https://github.com/minjeongss)                                                                          |                                                                          [유재민](https://github.com/jjamming)                                                                           |                                          [신지수](https://github.com/didyou88)                                           |                                                                           [성유진](https://github.com/jin20fd)                                                                            |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|                                <img alt="🐿️ 김민정" src="https://github.com/user-attachments/assets/a75e68d9-5d0b-4f02-8e4a-0017ff582ef1" width="120"/>                                 |                                 <img alt="🐤 유재민" src="https://github.com/user-attachments/assets/56d466bb-b998-4c84-936f-25260ad2130b" width="120"/>                                 | <img alt="🐙 신지수" src="https://github.com/user-attachments/assets/3a020da6-03fa-4d07-a764-1386dffd464e" width="120"/> |                                 <img alt="🦦 성유진" src="https://github.com/user-attachments/assets/f42bd4aa-6485-4487-a9c9-e9ef25c3040f" width="120"/>                                  |
+|                                <img alt="🐿️ 김민정" src="https://github.com/user-attachments/assets/676fac19-4e05-4a33-9ddd-4db790f5191b" width="120"/>                                 |                                 <img alt="🐤 유재민" src="https://github.com/user-attachments/assets/8e04be76-1916-4372-add2-e410a39141b4" width="120"/>                                 | <img alt="🐙 신지수" src="https://github.com/user-attachments/assets/67d10511-8ce8-45d2-89b2-90ac1c343080" width="120"/> |                                 <img alt="🦦 성유진" src="https://github.com/user-attachments/assets/dab8fd86-5183-4528-a441-b73e556c2f05" width="120"/>                                  |
 |                                                                                      `Frontend`                                                                                       |                                                                                      `Frontend`                                                                                       |                                                       `Backend`                                                       |                                                                                       `Backend`                                                                                        |
 | **[핵심 경험](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EA%B9%80%EB%AF%BC%EC%A0%95-(FE)>)** | **[핵심 경험](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%9C%A0%EC%9E%AC%EB%AF%BC-(FE)>)** |                                                    **[핵심 경험](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%8B%A0%EC%A7%80%EC%88%98-(BE)>)**                                                    | **[핵심 경험](<https://github.com/softeerbootcamp-6th/Team5-HyFive/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%95%B5%EC%8B%AC-%EA%B2%BD%ED%97%98---%EC%84%B1%EC%9C%A0%EC%A7%84-(BE)>)**  |
 </div>
