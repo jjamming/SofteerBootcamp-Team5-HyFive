@@ -8,7 +8,6 @@ import type {
 } from "@/features/timeTable/TimeTable.type";
 import { getTimeSlotGridStyle } from "@/features/timeTable/TimeTable.style";
 import { CloseIcon } from "@/assets/icons";
-import { useState } from "react";
 import { isBeforeToday } from "@/features/calender/Calender.util";
 
 const { color, typography } = theme;
@@ -30,8 +29,6 @@ const AvailableTimeSlot = ({
   onDelete,
   disabled = false,
 }: AvailableTimeSlotProps) => {
-  const [hovered, setHovered] = useState(false);
-
   const isPastDate = isBeforeToday(slot.rentalDate);
 
   const canInteract =
@@ -45,21 +42,19 @@ const AvailableTimeSlot = ({
 
   return (
     <div
-      onMouseEnter={() => canInteract && setHovered(true)}
-      onMouseLeave={() => canInteract && setHovered(false)}
       css={[
         getTimeSlotGridStyle(slot, selectedWeek),
-        getSlotContainerStyle(isPastDate, variant, canInteract, hovered),
+        getSlotContainerStyle(isPastDate, variant, canInteract),
       ]}
     >
       {variant === "default" && (
         <>
           <header>유휴 시간</header>
-          {canInteract && hovered && (
+          {canInteract && (
             <button
               type="button"
               onClick={handleDeleteClick}
-              css={DeleteButtonStyle(hovered)}
+              css={DeleteButtonStyle}
             >
               <CloseIcon fill={color.Maincolor.primary} />
             </button>
@@ -79,7 +74,6 @@ export default AvailableTimeSlot;
 const BaseSlotStyle = (
   variant: "default" | "preview",
   canInteract: boolean,
-  hovered: boolean,
 ) => css`
   position: relative;
   height: calc(100% - 16px); // 상하 margin 제외
@@ -91,19 +85,20 @@ const BaseSlotStyle = (
   flex-direction: column;
   justify-content: space-between;
   pointer-events: ${canInteract ? "auto" : "none"};
+  transition:
+    transform 140ms ease,
+    box-shadow 140ms ease,
+    filter 140ms ease;
 
-  ${hovered &&
-  canInteract &&
+  ${canInteract &&
   variant === "default" &&
   css`
-    transition:
-      transform 140ms ease,
-      box-shadow 140ms ease,
-      filter 140ms ease;
-    will-change: transform, box-shadow;
-    transform: translateY(-2px) scale(1.01);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    filter: brightness(0.98);
+    &:hover {
+      will-change: transform, box-shadow;
+      transform: translateY(-2px) scale(1.01);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      filter: brightness(0.98);
+    }
   `}
 `;
 
@@ -126,9 +121,8 @@ const getSlotContainerStyle = (
   isPastDate: boolean,
   variant: "default" | "preview",
   canInteract: boolean,
-  hovered: boolean,
 ) => {
-  const styles = [BaseSlotStyle(variant, canInteract, hovered)];
+  const styles = [BaseSlotStyle(variant, canInteract)];
 
   if (isPastDate) {
     styles.push(PastSlotStyle);
@@ -138,11 +132,16 @@ const getSlotContainerStyle = (
   return styles;
 };
 
-const DeleteButtonStyle = (hovered: boolean) => css`
+const DeleteButtonStyle = css`
   position: absolute;
   top: 16px;
   right: 20px;
   border: none;
   cursor: pointer;
-  color: ${hovered ? color.Maincolor.primary : color.GrayScale.gray4};
+  opacity: 0;
+  color: ${color.Maincolor.primary};
+
+  *:hover > & {
+    opacity: 1;
+  }
 `;

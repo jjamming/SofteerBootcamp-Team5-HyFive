@@ -3,6 +3,7 @@ import {
   formatTimeToNumber,
 } from "@/features/calender/Calender.util";
 import type { AvailableTimeSlotType } from "@/features/timeTable/TimeTable.type";
+import { slotUtils } from "@/features/timeTable/utils/slotUtils";
 
 export const slotMerger = {
   /**
@@ -53,7 +54,8 @@ export const slotMerger = {
     if (overlappingSlots.length > 0) {
       const mergedSlot = slotMerger.mergeSlots(newSlot, overlappingSlots);
       const remainingSlots = availableTimeSlots.filter(
-        (slot) => !overlappingSlots.includes(slot),
+        (slot) =>
+          !overlappingSlots.some((o) => slotUtils.isSameSlot(o, slot)),
       );
 
       return [mergedSlot, ...remainingSlots];

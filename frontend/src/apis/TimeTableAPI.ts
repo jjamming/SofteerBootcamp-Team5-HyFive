@@ -63,6 +63,7 @@ export const usePostTimeSlot = () => {
 
   return {
     createTimeSlot: mutation.mutate,
+    createTimeSlotAsync: mutation.mutateAsync,
     error: mutation.error,
   };
 };
